@@ -9,8 +9,9 @@ Backend для барбершопа с использованием SQLAlchemy O
 - Appointment
 
 ## 🔗 Связи
-- Один барбер → много записей
-- Один клиент → много записей
+- One-to-One: Client — Profile
+- One-to-Many: Barber — Appointment
+- Many-to-Many: Barber — Service
 
 ## 🚀 Запуск
 
